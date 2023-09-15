@@ -1,8 +1,10 @@
 import { useNavigate, Form } from "react-router-dom"
 import Formulario from "../components/Formulario"
 
-export function action() {
-  console.log('Submit al formulario...')
+export async function action({request}) {
+  const formData = await request.formData()
+  const datos = Object.fromEntries(formData)
+  console.log(datos)
 }
 
 
@@ -30,7 +32,7 @@ function NuevoCliente() {
           <input
             type="submit"
             className="mt-5 w-full bg-blue-800 p-3 uppercase font-bold text-white text-lg"
-            value="Registar cliente"
+            value="Registrar cliente"
             />
         </Form>
       </div>

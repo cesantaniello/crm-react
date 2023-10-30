@@ -1,20 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Juan (Actualizado)",
+      "nombre": "Juan",
       "empresa": "Codigo Con Juan",
       "email": "juan@juan.com",
       "telefono": "102013313",
       "notas": "Nueva Nota",
       "id": 1
-    },
-    {
-      "nombre": "Karen",
-      "empresa": "Codigo Con Juan",
-      "email": "karen_nuevo@juan.com",
-      "telefono": "138198313",
-      "notas": "Karen desea una REST API",
-      "id": 2
     },
     {
       "id": 4,
